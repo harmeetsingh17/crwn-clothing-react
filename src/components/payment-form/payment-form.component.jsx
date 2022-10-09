@@ -7,7 +7,6 @@ import { PaymentFormContainer, FormContainer, PaymentButton } from './payment-fo
 import { selectCartTotal } from '../../store/cart/cart.selector'
 import { selectCurrentUser } from '../../store/user/user.selector'
 
-
 const PaymentForm = () => {
     const stripe = useStripe();
     const elements = useElements()
